@@ -27,7 +27,7 @@
   <li><strong>Incident Resolution:</strong> Successfully unlocked user accounts, reset passwords, and restored access, showcasing effective problem-solving skills in user account administration.</li>
   <li><strong>Advanced Account Control:</strong> Gained experience disabling and re-enabling accounts, improving understanding of user lifecycle management in an enterprise environment.</li>
   <li><strong>Log Analysis and Auditing:</strong> Analyzed logs on both the Domain Controller and client machine to identify and resolve login issues, demonstrating critical thinking and attention to detail.</li>
-  <li><strong>Cloud Administration:</strong> Leveraged Azure Virtual Machines and Remote Desktop for secure, cloud-based Active Directory management and troubleshooting.</li>
+  <li><strong>Cloud Administration:</strong> Leveraged Azure Virtual Machines and Remote Desktop for cloud-based Active Directory management and troubleshooting.</li>
   <li><strong>Security Best Practices:</strong> Applied security principles in configuring account lockout policies and performing account recovery, enhancing organizational security posture.</li>
 </ul>
 
