@@ -2,8 +2,9 @@
   <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Enabling and Unlocking Accounts using Active Directory Deployed in the Cloud (Azure)</h1>
-In this home lab, I simulate a locked-out user account after multiple failed login attempts and demonstrate how to unlock it within Active Directory as an admin. I also configure the Account Lockout Threshold in Group Policy and observe logs for troubleshooting.
+<h1> Unlocking Accounts and Resetting Passwords using Active Directory Deployed in the Cloud (Azure)</h1>
+<p>In this home lab, I simulate a locked-out user account after multiple failed login attempts and demonstrate how to unlock it within Active Directory as an admin. Additionally, I configure the Account Lockout Threshold in Group Policy and analyze logs for troubleshooting and auditing purposes.</p>
+
 
 <h2>Environments and Technologies Used</h2>
 <ul>
@@ -34,37 +35,40 @@ In this home lab, I simulate a locked-out user account after multiple failed log
 
 <h3>Dealing with Account Lockouts</h3>
 <ol>
-  <li>Log in to DC-1 and pick a user account you created previously.</li>
+  <li>Log in to DC-1 and pick a user account you created previously (bak.gog).</li>
 
-  <li>Configure Group Policy to lock out an account after 5 failed login attempts:</li>
+  <li>Configure Group Policy to lock out an account after 5 failed login attempts, and login to client 1 to force a group policy update on jane_admin account with the gpupdate /force command in command prompt:</li>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/f77227a0-5f02-4711-907f-911a9937ecc4" alt="Group Policy Configuration"/>
+    
+  ![Screenshot (124)](https://github.com/user-attachments/assets/f0d3e9f1-d884-4ba3-850e-e8daa41c098e)
+![Screenshot (125)](https://github.com/user-attachments/assets/b17fda9f-da51-487a-9dfe-06a7e75f031d)
+
+
   </p>
 
   <li>Attempt to log in 6 times with an incorrect password. The account will be locked out.</li>
 
-  <li>Unlock the account and reset the password. Attempt to log in again.</li>
+  <li>Unlock the account and reset the password. Attempt to log in again to bak.gog.</li>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/31034cff-fd89-4bdc-b5b7-19204a748e60" alt="Unlock Account Screenshot"/>
+   
+  ![Screenshot (127)](https://github.com/user-attachments/assets/5b746fca-e12e-4286-a310-373dc6c0e9f3)
+  ![Screenshot (129)](https://github.com/user-attachments/assets/5e996cac-f0a5-4ba3-824d-d8514c456cb5)
+![Screenshot (131)](https://github.com/user-attachments/assets/343c1e59-4bed-448f-b64f-5ba6a574b57e)
+
+  
+
   </p>
 </ol>
 
-<h3>Enabling and Disabling Accounts</h3>
-<ol>
-  <li>Disable the same account in Active Directory.</li>
-  <li>Attempt to log in with the disabled account, observe the error message.</li>
-  <li>Re-enable the account and attempt to log in again.</li>
-  <p align="center">
-    <img src="https://github.com/user-attachments/assets/d22ca58e-e019-4199-8de8-6a279f01b94e" alt="Disable and Re-enable Account"/>
-  </p>
-</ol>
 
 <h3>Observing Logs</h3>
 <ol>
   <li>Observe the logs in the Domain Controller.</li>
   <li>Observe the logs on the client machine.</li>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/12f9f634-8afd-439f-9b83-d34dca61dda4" alt="Log Observation Screenshot"/>
+    
+  ![Screenshot (133)](https://github.com/user-attachments/assets/6ea91aa1-7b15-4370-89b7-9a69c574e52d)
+
   </p>
 </ol>
 
