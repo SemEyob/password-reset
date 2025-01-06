@@ -19,6 +19,17 @@ In this home lab, I simulate a locked-out user account after multiple failed log
   <li>Windows 10 (21H2)</li>
 </ul>
 
+<h2>Key Takeaways and Skills Developed</h2>
+<ul>
+  <li><strong>Active Directory Management:</strong> Demonstrated proficiency in managing user accounts, including account recovery and troubleshooting locked-out accounts in Active Directory.</li>
+  <li><strong>Policy Configuration:</strong> Configured and enforced Account Lockout Thresholds using Group Policy to enhance security and mitigate brute-force attacks.</li>
+  <li><strong>Incident Resolution:</strong> Successfully unlocked user accounts, reset passwords, and restored access, showcasing effective problem-solving skills in user account administration.</li>
+  <li><strong>Advanced Account Control:</strong> Gained experience disabling and re-enabling accounts, improving understanding of user lifecycle management in an enterprise environment.</li>
+  <li><strong>Log Analysis and Auditing:</strong> Analyzed logs on both the Domain Controller and client machine to identify and resolve login issues, demonstrating critical thinking and attention to detail.</li>
+  <li><strong>Cloud Administration:</strong> Leveraged Azure Virtual Machines and Remote Desktop for secure, cloud-based Active Directory management and troubleshooting.</li>
+  <li><strong>Security Best Practices:</strong> Applied security principles in configuring account lockout policies and performing account recovery, enhancing organizational security posture.</li>
+</ul>
+
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 <h3>Dealing with Account Lockouts</h3>
@@ -57,13 +68,5 @@ In this home lab, I simulate a locked-out user account after multiple failed log
   </p>
 </ol>
 
-<h2>Takeaways and Key Skills Developed</h2>
-<ul>
-  <li>Hands-on experience with managing user accounts in Active Directory in a cloud-based Azure environment.</li>
-  <li>Configured Account Lockout Thresholds using Group Policy to simulate account lockouts after failed login attempts.</li>
-  <li>Unlocked user accounts and reset passwords as an admin, ensuring proper troubleshooting of access issues.</li>
-  <li>Disabled and re-enabled accounts, further understanding user account management in Active Directory.</li>
-  <li>Observed and analyzed logs from both the Domain Controller and client machine to diagnose and resolve login problems.</li>
-  <li>Gained practical experience with Azure Virtual Machines and Remote Desktop for cloud-based administration and remote troubleshooting.</li>
-  <li>Developed essential skills in cloud support engineering, including security management, account recovery, and log analysis.</li>
-</ul>
+
+
