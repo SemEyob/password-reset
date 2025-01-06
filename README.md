@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1> Unlocking Accounts and Resetting Passwords using Active Directory Deployed in the Cloud (Azure)</h1>
+<h1 align="center"> Unlocking Accounts and Resetting Passwords using Active Directory Deployed in the Cloud (Azure)</h1>
 <p>In this home lab, I simulate a locked-out user account after multiple failed login attempts and demonstrate how to unlock it within Active Directory as an admin. Additionally, I configure the Account Lockout Threshold in Group Policy and analyze logs for troubleshooting and auditing purposes.</p>
 
 
